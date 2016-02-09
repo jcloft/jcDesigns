@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'aller';
+  src: url("fonts/Aller/Aller_Rg.ttf");
+}
+
+/* line 6, style.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 10, style.scss */
+.container {
+  width: 100% !important;
+}
+
+/* line 15, style.scss */
+.sidebar1 {
+  background: #2c3e50;
+  border-right: 2px solid #e9ebed;
+  height: 100vh;
+}
+/* line 20, style.scss */
+.sidebar1 .textwidget {
+  text-align: center;
+  margin-top: 15vh;
+}
+/* line 25, style.scss */
+.sidebar1 .menu-menu-1-container {
+  text-align: center;
+  margin-top: 10vh;
+}
+/* line 29, style.scss */
+.sidebar1 .menu-menu-1-container ul {
+  padding: 0;
+  list-style-type: none;
+}
+/* line 33, style.scss */
+.sidebar1 .menu-menu-1-container ul li {
+  margin-bottom: 15px;
+}
+/* line 35, style.scss */
+.sidebar1 .menu-menu-1-container ul li a {
+  font-family: 'aller';
+  font-size: 22px;
+  color: #e9ebed;
+}
+
+/* line 47, style.scss */
+.sidebar2 {
+  text-align: center;
+  min-height: 100vh !important;
+  background: #2c3e50;
+}
+/* line 53, style.scss */
+.sidebar2 .textwidget img {
+  -webkit-box-shadow: 0px 0px 2px 5px #1e2b38;
+  -moz-box-shadow: 0px 0px 2px 5px #1e2b38;
+  box-shadow: 0px 0px 2px 5px #1e2b38;
+}
+
+/* line 62, style.scss */
+#text-8, #text-9 {
+  text-align: center;
+  font-family: 'aller';
+  color: #e9ebed;
+  min-height: 290px;
+  margin-top: 25px;
+}
+
+/* line 71, style.scss */
+#text-8 {
+  position: relative;
+}
+/* line 74, style.scss */
+#text-8::before {
+  content: '';
+  height: 40%;
+  width: 1px;
+  right: 0;
+  top: 100px;
+  border-left: 1px solid #e9ebed;
+  position: absolute;
+}
+/* line 85, style.scss */
+#text-8 .textwidget img {
+  margin: 25px;
+}
+
+/* line 91, style.scss */
+#text-6 {
+  text-align: left;
+  width: 100%;
+}
+/* line 94, style.scss */
+#text-6 .textwidget {
+  font-family: 'aller';
+  font-size: 72px;
+  color: #e9ebed;
+}
+
+/* line 101, style.scss */
+#content {
+  float: right;
+  background: #476481;
+  height: 100vh;
+  color: #d3c1af;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  /* line 131, style.scss */
+  .sidebar2 #text-4, .sidebar2 #text-5 {
+    display: inline;
+  }
+  /* line 134, style.scss */
+  .sidebar2 #text-4 .textwidget, .sidebar2 #text-5 .textwidget {
+    display: inline;
+  }
+}

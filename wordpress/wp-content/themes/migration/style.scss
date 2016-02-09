@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'aller';
+    src: url('fonts/Aller/Aller_Rg.ttf');
+}
+
+.nopadding {
+  padding: 0 !important;
+}
+
+.container {
+  width: 100% !important;
+}
+
+
+.sidebar1 {
+  background: rgba(44, 62, 80,1.0);
+  border-right: 2px solid #e9ebed;
+  height: 100vh;
+  
+  .textwidget {
+    text-align: center;
+    margin-top: 15vh;
+  }
+  
+  .menu-menu-1-container {
+    text-align: center;
+    margin-top: 10vh; 
+    
+    ul {
+      padding: 0;
+      list-style-type: none;
+    
+      li {
+        margin-bottom: 15px;
+        a {
+          font-family: 'aller';
+          font-size: 22px;
+          //color: rgb(211,193,175);
+          color: #e9ebed;
+
+        }
+      }
+    }
+  }
+}
+
+.sidebar2 {
+  text-align: center;
+  min-height: 100vh !important;
+  background: rgba(44, 62, 80,1.0);
+  
+  .textwidget {
+    img {
+      -webkit-box-shadow: 0px 0px 2px 5px rgba(30,43,56,1);
+      -moz-box-shadow: 0px 0px 2px 5px rgba(30,43,56,1);
+      box-shadow: 0px 0px 2px 5px rgba(30,43,56,1);
+    }
+  }
+  
+}
+
+#text-8, #text-9 {
+  text-align: center;
+  font-family: 'aller';
+  //font-size: 78px;
+  color: #e9ebed;
+  min-height: 290px;
+  margin-top: 25px;
+}
+
+#text-8 {
+  position: relative;
+  
+  &::before {
+    content: '';
+    height: 40%;
+    width: 1px;
+    right: 0;
+    top: 100px;
+    border-left: 1px solid #e9ebed;
+    position: absolute;
+  }
+  
+  .textwidget {
+    img {
+      margin:25px;
+    }
+  }
+}
+
+#text-6 {
+  text-align: left;
+  width: 100%;
+  .textwidget {
+        font-family: 'aller';
+        font-size: 72px;
+        color: #e9ebed;
+  }
+}
+
+#content {
+  float: right;
+  background: #476481;
+  height: 100vh;
+  color: rgb(211,193,175);
+}
+
+@media screen and (max-width: 480px) {
+ 
+  
+}
+@media screen and (max-width: 568px) {
+ 
+  
+}
+@media screen and (max-width: 667px) {
+ 
+  
+}
+@media screen and (max-width: 768px) {
+ 
+  
+}
+@media screen and (max-width: 1024px) {
+ 
+  
+}
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  .sidebar2 {
+    
+    #text-4, #text-5 {
+      display: inline;
+      
+      .textwidget {
+        display: inline;
+        img {
+          //margin: 15px;
+        }
+      }
+    }
+  }
+    
+}
